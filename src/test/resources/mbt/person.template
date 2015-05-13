@@ -1,0 +1,27 @@
+HEADER<{{
+package se.recan.app.mbt;
+
+import java.io.File;
+import org.apache.log4j.Logger;
+import org.graphwalker.generators.PathGenerator;
+import se.recan.app.person.PersonPO;
+
+public class PersonModel extends org.graphwalker.multipleModels.ModelAPI {
+
+    private static final Logger LOGGER = Logger.getLogger("Logger");
+    private static final int SLEEP = 2;
+    
+    private PersonPO po;
+
+    public PersonModel(File model, boolean efsm, PathGenerator generator, boolean weight) {
+        super(model, efsm, generator, weight);
+    }
+}}>HEADER
+    public void {LABEL}() {
+    	LOGGER.debug("");
+
+    	po.sleep(SLEEP);
+    }
+FOOTER<{{
+}
+}}>FOOTER

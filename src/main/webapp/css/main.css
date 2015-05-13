@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table {
+    border: 1px solid #CCCCCC;
+    background-color: rgb(247, 247, 247);
+    border-collapse: collapse;
+    color: #333333;
+}
+
+th, td {
+    padding: 4px 40px;
+}
+
+.anteckning {
+    /*font-family: monospace;*/
+    white-space: pre;
+}
+
+.kod {
+    font-family: monospace;
+    white-space: pre;
+}
+
+table.mainCanvas {
+    margin: 10px auto;
+    width: 90%;
+}
+
+table.graphicCanvas {
+    float:left;
+    width: 300px;
+}
+
+table.graphicCanvas input[type="text"], 
+table.graphicCanvas input[type="password"], 
+table.graphicCanvas textare, 
+table.graphicCanvas select {
+    width:100px;
+
+}
+
+table.graphicCanvas tr {
+    border: 1px solid #CCCCCC;
+}
+
+table.listCanvas {
+    background-color: #eee;
+    border: 0;
+}
+
+table.listCanvas th,
+table.listCanvas td {
+    border: 1px solid #CCCCCC;
+    padding: 4px 20px;
+    text-align: left;
+}
+
+h1 {
+    font-family: helvetica;
+    text-align: center; 
+    color:#007597;
+}
+
+h2 {
+    font-family: helvetica;
+    color:#6F78A4;
+    margin: 30px 0px 6px 0px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+h3 {
+    font-family: helvetica;
+    display:inline;
+}
+
+h3:before {
+    content: bull;
+    margin: auto; 
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin: 0 0 2px 0;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+    width:200px;
+    margin: 0 0 1px 0;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+    width:100px;
+    color: #007597;
+    font-size: 12px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #bbbbbb #bbbbbb #a2a2a2;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+div.modal {
+    padding:10px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #CCCCCC;
+    /*border-color: #bbbbbb #bbbbbb #a2a2a2;*/
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.message {
+    font-size: 16px;
+    color: #666600;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: #8B0000;
+    font-size: 14px;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid #8B0000;
+}
+
+a:link { text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+a {
+    color: #007597;
+    text-decoration: none;
+}
